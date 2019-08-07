@@ -9,9 +9,27 @@ body{
     background-color: #e0ffff;
 }
 
+
+.jumbotron {
+    background-image: url('../img/bg_naruto5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    height: 440px;
+    color:white;
+    text-shadow: 1px 1px 10px rgba(white, white, white,white);
+    overflow: hidden;
+}
+
+.jumbotron p {
+    font-size: 30px;
+  
+}
+
 .jumbotron img {
     width: 200px;
-    border: 5px solid #666666;
+    border: 5px solid #eaeaea;
+    box-shadow:1px 1px 10px rgba(5, 6, 7, 8.5);
 }
 
 hr {
@@ -23,8 +41,31 @@ section {
     min-height: 600px;
 }
 
-.porfolio {
+.pKiri .pKanan{
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+.pKanan {
+    transform: translate(50px, 0);
+}
+.pKiri.pMuncul, .pKanan.pMuncul {
+    opacity: 0;
+    transform: translate(0,0);
+}
+
+.portofolio {
     background-color: #eeeeee;
+}
+.portofolio .img-thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.portofolio .img-thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0,0);
 }
 
 .contact {
