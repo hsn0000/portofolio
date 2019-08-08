@@ -18,13 +18,13 @@
   <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary" >
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;" >
         <div class="container-fluid">
          <div class="navbar-header">
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
                </button>
-               <a class="navbar-brand page-scroll" href="#home" >Muhamad Husin</a>
+               <a class="navbar-brand page-scroll" id="NameNavbar" href="#home" >Muhamad Husin...</a>
           </div>
          <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
@@ -45,7 +45,7 @@
     
     <!--  jumbotron -->
     <div class="jumbotron text-center" style="background-color: #00ced1;">
-        <img src="img/profile.png" class="rounded-circle">
+        <img src="img/profile_naruto.jpg" class="rounded-circle">
         <h1>Muhamad Husin</h1>
         <p>Newbie | Web Programing | Kotlin Android Studio</p>
     </div>
@@ -103,35 +103,66 @@
     </div>
      
     <div class="row">
-        <div class="col-sm-4 mb-3">
-            <a href="https://instagram.com/muhamad_husin_s">
-                <img class="img-thumbnail" src="img/portfolio/naruto1.jpg">
-            </a>
-        </div>
-        <div class="col-sm-4">
-                <a href="https://instagram.com/muhamad_husin_s">
-                    <img class="img-thumbnail" id="img2" src="img/portfolio/naruto2.jpg">
-                </a>
+        <div class="col">
+         <div class="card bg-secondary text-white">
+           <img class="card-img-top" src="img/portfolio/naruto1.jpg">
+           <div class="card-body">
+             <h5 class="card-title">Ujumaki Naruto V.1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://instagram.com/muhamad_husin_s" class="btn btn-warning">Kunjungi..</a>
+              </div>
             </div>
-            <div class="col-sm-4">
-                    <a href="https://instagram.com/muhamad_husin_s">
-                        <img class="img-thumbnail" src="img/portfolio/naruto3.jpg">
-                    </a>
+         </div>
+        <div class="col">
+         <div class="card bg-success text-white">
+             <img class="card-img-top" id="img2" src="img/portfolio/naruto2.jpg">
+             <div class="card-body">
+                 <h5 class="card-title">Uchiha Madara The Legend</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="https://instagram.com/muhamad_husin_s" class="btn btn-info">Kunjungi..</a>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-info text-white">
+              <img class="card-img-top" src="img/portfolio/naruto3.jpg">
+                <div class="card-body">
+                 <h5 class="card-title">Uchiha Ithachi The Legend</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://instagram.com/muhamad_husin_s" class="btn btn-secondary">Kunjungi..</a>
+             </div>
+         </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <div class="card bg-warning text-white">
+         <img class="card-img-top" src="img/portfolio/naruto4.jpeg">
+            <div class="card-body">
+               <h5 class="card-title">Ujumaki Naruto V.4</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://instagram.com/muhamad_husin_s" class="btn btn-dark">Kunjungi..</a>
+                  </div>
                 </div>
-                <div class="col-sm-4">
-                        <a href="https://instagram.com/muhamad_husin_s">
-                            <img class="img-thumbnail" src="img/portfolio/naruto4.jpeg">
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                            <a href="https://instagram.com/muhamad_husin_s">
-                                <img class="img-thumbnail" src="img/portfolio/naruto5.jpg">
-                            </a>
+            </div>
+               <div class="col">
+                 <div class="card bg-primary text-white" >
+                     <img class="img-thumbnail" src="img/portfolio/naruto5.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Ujunaki Naruto V.5</h5>
+                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                 <a href="https://instagram.com/muhamad_husin_s" class="btn btn-success">Kunjungi..</a>
+                             </div>
                         </div>
-                          <div class="col-sm-4">
-                    <a href="https://instagram.com/muhamad_husin_s">
-               <img class="img-thumbnail" src="img/portfolio/naruto6.jpg">
-            </a>
+                    </div>
+       <div class="col">
+           <div class="card bg-dark text-white">
+            <img class="img-thumbnail" src="img/portfolio/naruto6.jpg">
+               <div class="card-body">
+                 <h5 class="card-title">Ujunaki Naruto V.6</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               <a href="https://instagram.com/muhamad_husin_s" class="btn btn-danger">Kunjungi..</a>
+            </div>
         </div>
     </div>
      
@@ -192,7 +223,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <a href="https://instagram.com/muhamad_husin_s" class="btn btn-primary">Jangan Lupa Follow</a>
+                <a href="https://instagram.com/muhamad_husin_s" class="btn btn-warning">Jangan Lupa Follow</a>
             </div>
         </div>
     </div>
